@@ -1,0 +1,29 @@
+packages: .
+
+package async
+  tests: true
+
+source-repository-package
+  type: git
+  location: /home/alex/hasura/repos/ghc92-forks/hashable
+  tag: c0a9f9977c2a6c72519007f80d62e1b81bbb17e3
+
+source-repository-package
+  type: git
+  location: /home/alex/hasura/repos/ghc92-forks/regex-base
+  tag: faba2300583e0c14db10ad64af7e19955a9945d0
+
+source-repository-package
+  type: git
+  location: /home/alex/hasura/repos/ghc92-forks/regex-posix
+  tag: bde96faa1b385a21074a407d7a20c01ec6b5e142
+
+source-repository-package
+  type: git
+  location: https://github.com/haskell/random
+  tag: b7f0e6c1ef57b815fc3048ac022b65149010b777
+
+source-repository-package
+  type: git
+  location: https://github.com/haskellari/splitmix
+  tag: 4606188a437e6f6478fed2a20cadd716589f25ea
